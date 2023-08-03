@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/user/Desktop/scala-advent-of-code/target/scala-3.3.0/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DayOne$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DayOne$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dayOne.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DayOne$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DayOne$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dayOne.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DayOne$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DayOne$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dayOne.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DayOne$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DayOne$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dayOne.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DayOne$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DayOne$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dayOne.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DayOne$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DayOne$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dayOne.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/user/Desktop/scala-advent-of-code/target/scala-3.3.0/classes.bak[0m
