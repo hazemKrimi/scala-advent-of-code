@@ -1,3 +1,4 @@
+project
 target
 out
 
@@ -5,7 +6,9 @@ out
 *.iml
 *.ipr
 *.iws
+
 .idea
 .vscode
 .metals
 .bsp
+.bloop
