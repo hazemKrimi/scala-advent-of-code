@@ -1,4 +1,4 @@
-package main
+package advent_of_code
 
 type MyMove = "X" | "Y" | "Z"
 type OpponentMove = "A" | "B" | "C"

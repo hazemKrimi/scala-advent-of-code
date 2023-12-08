@@ -1,4 +1,4 @@
-package main
+package advent_of_code
 
 import os.*
 
