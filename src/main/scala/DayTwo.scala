@@ -1,3 +1,5 @@
+package main
+
 type MyMove = "X" | "Y" | "Z"
 type OpponentMove = "A" | "B" | "C"
 
@@ -13,7 +15,7 @@ def calculateMoveScore(opponentMove: OpponentMove, myMove: MyMove): Int =
     case ("C", "Y") => 6
     case ("C", "Z") => 7
 
-@main def dayTwo: Unit =
+def dayTwo: Unit =
   val path: os.Path = os.pwd / "src" / "main" / "resources" / "day-two.txt"
   val content: Seq[String] = os.read.lines(path)
   val myTotalScore: Int = content

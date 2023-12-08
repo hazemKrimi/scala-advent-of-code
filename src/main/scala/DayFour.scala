@@ -1,3 +1,5 @@
+package main
+
 def getPairRanges(line: String) =
   val pair = line.split(",")
   val firstElfSection = pair.head.split("-")
@@ -7,7 +9,7 @@ def getPairRanges(line: String) =
 
   (firstRange, secondRange)
 
-@main def dayFour: Unit =
+def dayFour: Unit =
   val path: os.Path = os.pwd / "src" / "main" / "resources" / "day-four.txt"
   val content: Seq[String] = os.read.lines(path)
   val sumOfContainedRanges = content.map(getPairRanges).count((firstRange, secondRange) => {

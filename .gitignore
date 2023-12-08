@@ -1,14 +1,14 @@
-project
-target
-out
+project/
+target/
+out/
 
 *.class
 *.iml
 *.ipr
 *.iws
 
-.idea
-.vscode
-.metals
-.bsp
-.bloop
+.idea/
+.vscode/
+.metals/
+.bsp/
+.bloop/

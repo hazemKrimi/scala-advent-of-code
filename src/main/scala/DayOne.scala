@@ -1,3 +1,5 @@
+package main
+
 import os.*
 
 def getTotalCaloriesByElveSorted: Seq[Int] =
@@ -11,5 +13,5 @@ def getTotalCaloriesByElveSorted: Seq[Int] =
 
   totalCaloriesForByElve
 
-@main def dayOne: Unit =
+def dayOne: Unit =
   println(getTotalCaloriesByElveSorted.take(3).sum)

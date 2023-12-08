@@ -1,3 +1,5 @@
+package main
+
 import scala.compiletime.ops.string.CharAt
 
 val lowerCaseLetters = ('a' to 'z').toList
@@ -19,7 +21,7 @@ def calculatePriorityOfLine(line: String): Int =
 
 def calculatePriorityOfGroup(group: Seq[String]): Int = calculatePriorityOfChar(group.map(_.toSet).reduce(_ intersect _).head)
 
-@main def dayThree: Unit =
+def dayThree: Unit =
   val path: os.Path = os.pwd / "src" / "main" / "resources" / "day-three.txt"
   val content: Seq[String] = os.read.lines(path)
   val sumOfPriorities = content.map((line) => calculatePriorityOfLine(line)).reduce(_ + _)
